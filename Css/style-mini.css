@@ -1,0 +1,86 @@
+/* start main Rouls*/
+h1, h2, h3, h4{text-transform: uppercase;font-weight:bold;}h2, h3,h4{color:#555;}p{color:#788083;}hr{ margin:20px 0 ;background-color:#888;height:3px; border:0}
+/* End main Rouls*/
+/* start Header */
+.header .slider{background-color:#EEE;background-image:url('../Images/9.jpg');}.header .slider .intro{color:#222;}.header .slider .intro button{background-color: transparent;border:2px solid #222;font-weight:bold;text-transform: uppercase;color:#222;}.header .navbar{background:#252f31;color:#FFF;text-transform: capitalize;}.header .navbar h2 span{ color: #3bc977;}.header .navbar ul{list-style: none;}.header .navbar ul li a{color:#fff;text-decoration: none;}.header .navbar ul li a:hover{color:#30b576;font-weight: bold;text-decoration: underline;}.header .navbar ul li a:active{text-decoration: none;}
+/* End Header */
+/* Start Features*/
+.features .feat p{line-height:1.7;white-space:10px;}
+/* End Features*/
+/* Start aboutme*/
+.aboutme{background-color: #F2F2F2;}
+/* End aboutme*/
+/*start myskills*/
+.myskills .myskills-right .stat{background-color:#F2F2F2;}.myskills .myskills-right .stat span{background-color:#2dcc70;color:white;line-height: 25px;}
+/*End myskills*/
+/* start resume*/
+.resume{background-color:#F2F2F2;}
+/* End resume*/
+/* Start education*/
+.education p{line-height: 1.7;}.education .edu-right span{background: #2DCC70;color: #fff;font-weight:bold;text-transform: uppercase;}
+/*End education*/
+/* Start work*/
+.work p{line-height: 1.7;}.work .work-right span{background: #2DCC70;color: #fff;font-weight:bold;text-transform: uppercase;}
+/*End work*/
+/*start testmonials*/  
+.testmonials{background-color:#F2F2F2;}.testmonials q{font-style: italic;font-size: 18px;color:#788083;line-height: 1.7;font-weight: bold;}.testmonials ul{list-style: none;}.testmonials ul li{border:3px solid #2DCC70;}.testmonials ul li.activ{background-color:#2DCC70;}.testmonials ul li:hover{background-color:#2DCC70;cursor: pointer;}
+/*End testmonials*/
+/*start contact-me*/
+.contact-me{background-color: #262B2E;}.contact-left h2{color:#ffffff;}.contact-left p{color:#788083;}.contact-left >p:first-of-type{line-height:1.7;}.contact-left p span{color:#fff;}.contact-left div{margin-top:20px;}.contact-left div p{text-transform: capitalize;line-height:.75;}.contact-right div h4{text-transform: capitalize;color:#fff;}.contact-right div span{color:#788083;}.contact-right div input[type=text]{border:hidden;background-color:#788083;color:#fff;}.contact-right textarea{border:hidden;background-color:#788083;color:#fff;}.contact-right input[type="submit"]{border: hidden;background: #191E21;color: #fff;font-weight:bold;text-transform: uppercase;}
+/*End contact-me*/
+/*start footer*/
+.footer{color:#788083;background-color:#191E21;}.footer ul{list-style: none;}
+/*end footer*/
+/* start frame work*/
+.my-button{border:3px solid #2DCC70;background: transparent;color: #2DCC70;font-weight:bold;text-transform: uppercase;}
+/* end frame work*/
+                /*=== === === === === Start Media === === === === === === ==*/
+/* start Rules */
+:root{--xxs:calc(320px/12);--xs:calc(480px/12);--s:calc(768px/12);--m:calc(992px/12);--l:calc(1200px/12);}*{padding: 0;margin: 0;}body{display:flex;flex-wrap: wrap;justify-content: center;}body > *{display: flex;flex-wrap: wrap;padding-left:10px;padding-right:10px;padding-top:30px;padding-bottom: 30px;}.container{margin:auto;}.sub-container{display: flex;flex-wrap: wrap;justify-content: center;}
+/* end Rules */
+/* start Header */
+.header{padding: 0;}.header .slider{height:600px;flex-basis: 100%;display: flex;flex-wrap: wrap;padding-left:10px;padding-right:10px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}.header .slider .container .sub-container{height: 600px;}.header .slider .container .sub-container .intro{text-align: center;     /*for h1 internal text*/display: flex;flex-wrap: wrap;justify-content: center;align-items: center;}.header .slider .container .sub-container .intro h1{flex-basis:700px;padding:5px 0;border-top:4px solid #FFF;border-bottom:4px solid #FFF;font-size:50px;}.header .slider .container .sub-container .intro button{font-size:25px;font-weight: bold;padding:18px 43px;}.header .navbar{flex-basis: 100%;display: flex;flex-wrap: wrap;padding-left:10px;padding-right:10px;padding-bottom: 10px;padding-top: 10px;}.header .navbar .container .sub-container h2{display: flex;flex-wrap: wrap;align-content: center;margin-bottom: 20px;flex-grow: 1}.header .navbar .container .sub-container ul{display: flex;flex-wrap: wrap;justify-content: center;padding: 0px;}.header .navbar .container .sub-container ul li{padding: 10px;}
+/* End Header */
+/* Start Features*/
+.features{justify-content: center;}.features .container .sub-container{justify-content: space-between;}.features .container .sub-container .feat{display: flex;flex-wrap: wrap;justify-content: center;margin-top: 20px;}.features .container .sub-container .feat{flex-basis: 350px;}.features .container .sub-container .feat h2{line-height: .75;margin-bottom: 20px}.features .container .sub-container .feat p{text-align: justify;}
+/* End Features*/
+/* Start aboutme*/
+.aboutme{padding-top: 0;}.aboutme .container .sub-container:first-of-type{height: 220px;justify-content: space-between;align-items:center;}.aboutme .container .sub-container .img{margin-bottom: 15px;flex-basis: 15%;}.aboutme .container .sub-container .img img{width: 100%;}.aboutme .container .sub-container .info{flex-basis: 83%;margin-bottom: 15px;}.aboutme .container .sub-container .info h2{margin-bottom: 15px;}.aboutme .container .sub-container .info > p{margin-bottom: 15px;}.aboutme .container .sub-container .hobbies{flex-basis: 100%;display: flex;flex-wrap: wrap;}.aboutme .container .sub-container .hobbies{justify-content: space-between;}.aboutme .container .sub-container .hobbies .box{flex-basis: 300px;display: flex;margin-bottom: 15px;}img[alt="web"]{margin: 4px 0 0 0;max-width: 100%;}img[alt="pencil"]{margin: 13px 0 0 0;max-width: 88%;}img[alt="group"]{margin: 3px 0 0 0;max-width: 100%;}img[alt="attach1"]{margin: 13px 0 0 0;max-width: 79%;}.aboutme .container .sub-container .hobbies .box .txt > h3,.aboutme .container .sub-container .hobbies .box .txt >p{margin-bottom: 15px;}
+/* End aboutme*/
+/*start myskills*/
+.myskills{margin-top: 45px;margin-bottom:50px;padding-top: 30px;padding-bottom:30px;}.myskills .myskills-left{width:50%;margin-right: 5%;}.myskills .myskills-left p{margin-bottom:40px;margin-top:40px;}.myskills .myskills-left button{padding:12px 30px;}.myskills .myskills-right{width:45%;}.myskills .myskills-right h3{margin-bottom: 10px;margin-top:28px;}.myskills .myskills-right .stat{height:25px;}.myskills .myskills-right .stat span{display:block;height:25px;text-align: right;}
+/*End myskills*/
+/* start resume*/
+.resume{padding-top:50px;padding-bottom:60px;text-align:center;}.resume p{padding-top:10px;padding-bottom:20px;}.resume button{padding:12px;margin-bottom: 20px;}
+/* End resume*/
+/* Start education*/
+.education .edu-left{width:50%;}.education .edu-right{margin-left:5%;width:45%;}.education .edu-right h3{margin-top:53px;}.education .edu-right span{display:inline-block;padding:5px 10px;}
+/*End education*/
+.hr{height:3px;width: 100%;display: block;padding: 0;}
+/* Start work*/
+.work .work-left{width:50%;}.work .work-right{margin-left:5%;width:45%;}.work .work-right h3{margin-top:53px;}.work .work-right span{display:inline-block;padding:5px 10px;}
+/*End work*/
+/*start testmonials*/
+.testmonials .container .sub-container{text-align: justify}.testmonials .container .sub-container h4{flex-basis: 100%;text-align: center;margin-top:30px;}.testmonials .container .sub-container ul{padding: 0;flex-basis: 22%;display: flex;justify-content: space-between;align-items: center;}.testmonials .container .sub-container ul li{margin-top:20px;margin-bottom:40px;width:15px;height:15px;}
+/*End testmonials*/
+/*start portfolio*/
+.portfolio{padding-bottom: 0;}.portfolio .container .sub-container{text-align: center}.portfolio .container .sub-container h3{margin-bottom: 20px;}.portfolio .container .sub-container p{margin-bottom: 30px;}.portfolio .container .sub-container .pictures{display: flex;flex-wrap: wrap;justify-content: space-evenly;}.portfolio .container .sub-container .pictures > div{flex-basis:26%;margin-bottom: 20px;}.portfolio .container .sub-container .pictures > div > img{width:91%;}
+/*End portfolio*/
+/*start contact-me*/
+.contact-me .container .sub-container{justify-content: space-around;}.contact-me .container .sub-container .contact-left{flex-basis: 50%;}.contact-me .container .sub-container .contact-left p{margin: 20px 0;}.contact-me .container .sub-container .contact-right{flex-basis: 41%;display: flex;flex-wrap: wrap;}.contact-me .container .sub-container .contact-right div{flex-basis: 100%;display: flex;flex-wrap: wrap;margin-bottom: 20px;}.contact-me .container .sub-container .contact-right div h4{margin-bottom: 10px;}.contact-me .container .sub-container .contact-right div input[type=text]{flex-basis: 100%;height:40px;padding:10px;}.contact-me .container .sub-container .contact-right textarea{flex-basis:100%;height:250px;}.contact-me .container .sub-container .contact-right input[type="submit"]{margin-top:35px;padding:10px 15px;}
+/*End contact-me*/
+/*start footer*/
+.footer{text-align:center;flex-basis: 100%;}.footer .container .sub-container{align-content: center;}.footer .container .sub-container > *{flex-basis: 100%;}.footer .container .sub-container ul li{display: inline-block;padding:10px;}
+/*end footer*/
+                /*=== === === === === --XXS Portrait phones and smaller === */
+@media (max-width: 479px){.container{flex-basis:calc(var(--xxs)*12);}}
+                /*=== === === === === --XS Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){.container{flex-basis:calc(var(--xs)*12);}.header .navbar .container .sub-container{text-align: center;}.header .navbar .container .sub-container ul{flex-basis: 70%;}.header .navbar .container .sub-container h2{display: block;flex-basis: 100%;}.features .container .sub-container{justify-content: center;}.features .container .sub-container .feat{flex-basis: 400px;}.aboutme .container .sub-container:first-of-type{margin-top: 10px;height: auto;flex-wrap: wrap;justify-content: center;}.aboutme .container .sub-container .img{flex-basis: 25%;}.aboutme .container .sub-container .info{flex-basis: 100%;display: flex;flex-wrap: wrap;justify-content: center;}.aboutme .container .sub-container .hobbies{justify-content: space-evenly;}.aboutme .container .sub-container .hobbies .box{flex-basis: 230px;}.education .edu-left{flex-basis:100%;display: flex;flex-wrap: wrap;justify-content: center;}.education .edu-right{flex-basis:100%;margin-left:0;}.education .edu-right > *{text-align: center;margin-left:0;}.work .work-left{flex-basis:100%;display: flex;flex-wrap: wrap;justify-content: center;}.work .work-right{flex-basis:100%;margin-left:0;}.work .work-right > *{text-align: center;margin-left:0;}.contact-me .container .sub-container .contact-left{flex-basis: 100%;}.contact-me .container .sub-container .contact-left h2,.contact-me .container .sub-container .contact-left > p{text-align: center;}.contact-me .container .sub-container .contact-right{flex-basis: 100%;justify-content: center;}}
+                /*=== === === === === --S Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {.container{flex-basis:calc(var(--s)*12);}.features .container .sub-container .feat{flex-basis: 220px;}.aboutme .container .sub-container:first-of-type{margin-top: 10px;height: auto;flex-wrap: wrap;justify-content: center;}.aboutme .container .sub-container .img{flex-basis: 25%;}.aboutme .container .sub-container .info{flex-basis: 100%;display: flex;flex-wrap: wrap;justify-content: center;}.aboutme .container .sub-container .hobbies{justify-content: space-evenly;}.aboutme .container .sub-container .hobbies .box{flex-basis: 270px;}}
+                /*=== === === === === --M Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {.container{flex-basis:calc(var(--m)*12);}.features .container .sub-container .feat{flex-basis: 300px;}.aboutme .container .sub-container .hobbies{justify-content: space-evenly;}.aboutme .container .sub-container .hobbies .box{flex-basis: 400px;}}
+                /*=== === === === === --L Large desktops and laptops === ===*/
+                /*=== === === === ===  Defult === === === === === === === ==*/
+@media (min-width: 1200px){.container{flex-basis:calc(var(--l)*12);}.aboutme .container .sub-container .hobbies .box{flex-basis: 270px;}}
+                /*=== === === === === End Media === === === === === === === */

@@ -1,5 +1,4 @@
 /* start main Rouls*/
-.container{margin:auto;}
 h1, h2, h3, h4{text-transform: uppercase;font-weight:bold;}
 h2, h3,h4{color:#555;}
 p{color:#788083;}
@@ -11,14 +10,13 @@ hr{ margin:20px 0 ;background-color:#888;height:3px; border:0}
       background-color:#EEE;
       background-image:url('../Images/9.jpg');
    }
-.header .slider .intro{color:#fff;}
-.header .slider .intro h1{}
+.header .slider .intro{color:#222;}
 .header .slider .intro button{
     background-color: transparent;
-    border:2px solid #FFF;
+    border:2px solid #222;
     font-weight:bold;
     text-transform: uppercase;
-    color:#fff;
+    color:#222;
 }
 .header .navbar{
     background:#252f31;
@@ -27,16 +25,12 @@ hr{ margin:20px 0 ;background-color:#888;height:3px; border:0}
 }
 .header .navbar h2 span{ color: #3bc977;}
 .header .navbar ul{list-style: none;}
-.header .navbar ul li{}
 .header .navbar ul li a{color:#fff;text-decoration: none;}
 .header .navbar ul li a:hover{color:#30b576;font-weight: bold;text-decoration: underline;}
 .header .navbar ul li a:active{text-decoration: none;}
 /* End Header */
 
 /* Start Features*/
-.features{}
-.features .feat{}
-.features .feat h2{}
 .features .feat p{
     line-height:1.7;
     white-space:10px;
@@ -45,31 +39,9 @@ hr{ margin:20px 0 ;background-color:#888;height:3px; border:0}
 
 /* Start aboutme*/
 .aboutme{background-color: #F2F2F2;}
-.aboutme .img{}
-.aboutme .img img{}   
-.aboutme .info{}
-.aboutme .info h2{}
-.aboutme .info > p{}
-.aboutme .info > p:last-of-type{}
-.aboutme .info .hobbies{}
-.aboutme .info .hobbies .box{}
-.aboutme .info .hobbies .box .icon{}
-img[alt="web"]{}
-img[alt="pencil"]{}
-img[alt="group"]{}
-img[alt="attach1"]{}
-.aboutme .info .hobbies .box .txt{}
-.aboutme .info .hobbies .box .text > h3,
-.aboutme .info .hobbies .box .text >p{}
 /* End aboutme*/
 
 /*start myskills*/
-.myskills{}
-.myskills .myskills-left{}
-.myskills .myskills-left p{}
-.myskills .myskills-left button{}
-.myskills .myskills-right{}
-.myskills .myskills-right h3{}
 .myskills .myskills-right .stat{background-color:#F2F2F2;}
 .myskills .myskills-right .stat span{
     background-color:#2dcc70;
@@ -80,49 +52,31 @@ img[alt="attach1"]{}
 
 /* start resume*/
 .resume{background-color:#F2F2F2;}
-.resume p{}
-.resume button{}
 /* End resume*/
 
 /* Start education*/
-.education{}
 .education p{line-height: 1.7;}
-.education .edu-left{}
-.education .edu-left p{}
-.education .edu-right{}
-.education .edu-right h3{}
-.education .edu-right p:first-of-type{}
 .education .edu-right span{
     background: #2DCC70;
     color: #fff;
     font-weight:bold;
     text-transform: uppercase;
 }
-.education .edu-right p:last-of-type{margin-top:25px;}
 /*End education*/
 
 /* Start work*/
-.work{}
 .work p{line-height: 1.7;}
-.work .work-left{}
-.work .work-left p{}
-.work .work-right{}
-.work .work-right h3{}
-.work .work-right p:first-of-type{}
 .work .work-right span{
   background: #2DCC70;
   color: #fff;
   font-weight:bold;
   text-transform: uppercase;
 }
-.work .work-right p:last-of-type{}
 /*End work*/
 
 /*start testmonials*/  
 .testmonials{background-color:#F2F2F2;}
-.testmonials .container{}
 .testmonials q{font-style: italic;font-size: 18px;color:#788083;line-height: 1.7;font-weight: bold;}
-.testmonials h4{}
 .testmonials ul{list-style: none;}
 .testmonials ul li{
   border:3px solid #2DCC70;
@@ -132,22 +86,16 @@ img[alt="attach1"]{}
 /*End testmonials*/
 
 /*start portfolio*/
-.portfolio{}
-.portfolio .pictures{}
-.portfolio .pictures > div{}
-.portfolio .container .pictures > div > img{}
 /*End portfolio*/
 
 /*start contact-me*/
 .contact-me{background-color: #262B2E;}
-.contact-left{}
 .contact-left h2{color:#ffffff;}
 .contact-left p{color:#788083;}
 .contact-left >p:first-of-type{line-height:1.7;}
 .contact-left p span{color:#fff;}
 .contact-left div{margin-top:20px;}
 .contact-left div p{text-transform: capitalize;line-height:.75;}
-.contact-right{}
 .contact-right div h4{text-transform: capitalize;color:#fff;}
 .contact-right div span{color:#788083;}
 .contact-right div input[type=text]{
@@ -175,11 +123,9 @@ img[alt="attach1"]{}
     background-color:#191E21;
 }
 .footer ul{list-style: none;}
-.footer ul li{}
 /*end footer*/
 
 /* start frame work*/
-.clearfix{clear:both;}
 .my-button{
       border:3px solid #2DCC70;
       background: transparent;
@@ -187,5 +133,4 @@ img[alt="attach1"]{}
       font-weight:bold;
       text-transform: uppercase;
 }
-.fl-left{float:left;}
 /* end frame work*/
